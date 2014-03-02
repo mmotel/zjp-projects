@@ -91,3 +91,5 @@ n 		seq 			mpi
 
 16384 	0,0057940177 	0,002838576
 ```
+
+![integral-tests-results](../images/integral-tests-results.png)
