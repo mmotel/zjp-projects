@@ -41,7 +41,7 @@ n_size = size + rest;
 
 ##### 0.3. Macierz zapisujemy jako tablicę jednowymiarową `M[ n_size * n_size ]` oraz zamiast odwołań `M[ i ][ j]` sotsujemy `M[ (i * n_size) + j ]`,
 
-##### 1. proces o `rank` równym `0` wypełnia macierz `M[ n_size * n_size ]` i wektor `N[ size ]` losowymi liczbami,
+##### 1. proces o `rank` równym `0` wypełnia macierz `M[ n_size * n_size ]` i wektor `N[ n_size ]` losowymi liczbami,
 
 ##### 1.2 jeśli `n_size != size` to wypełniami zerami pola macierzy i wektora jeśli spełniają one warunek:
 
@@ -66,7 +66,7 @@ Gdzie `M[ i ]` oznacza `M[ i_start..i_stop ]`, gdzie:
 
 ```
 i_start = i * n_size;
-i_stop= (i+1) * n_size – 1;
+i_stop = (i+1) * n_size – 1;
 ```
 
 ##### 4. dokonujemy zebrania wyników od wszystkich procesów (`MPI_Gather`),
