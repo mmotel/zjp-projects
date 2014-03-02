@@ -65,7 +65,7 @@ procesorem Intel Core-i3 (2 rdzenie, 4 wątki) oraz pamięcią RAM o rozmiarze
 ### Przebieg
 
 Testy polegały na 500-krotnym uruchomieniu każdej z wersji programu
-(sekwencyjenj i równoległej) dla n = {512, 1024, 2048, 4096, 8192, 16384}.
+(sekwencyjenj i równoległej) dla `n = {512, 1024, 2048, 4096, 8192, 16384}`.
 Następie następowało zliczanie czasów działania każdego uruchomienia oraz
 wyliczanie śrendnich czasów dla obu wersji dla każdego n.
 Średnie czasy zostały użyte do opracowania wyników.
