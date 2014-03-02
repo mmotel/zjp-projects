@@ -5,4 +5,4 @@ Zaawansowane języki programowania - projekty.
 
 * [Całka (integral)](./integral)
 * [Iloczyn macierzy i wektora (matrix-vector)](./matrix-vector)
-* [Monte-Carlo](./monte-carlo)
+* [Metoda Monte-Carlo (monte-carlo)](./monte-carlo)
