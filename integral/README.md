@@ -30,7 +30,7 @@ integral += [ f(x) + f(x+h) ] / 2 * h;
 
 ---
 
-###Algorytm równoległy (MPI):
+###Algorytm równoległy (MPI)
 
 ##### 1. Wyliczamy `h`:
 
@@ -44,8 +44,7 @@ h = (b – a) / n;
 x = a + (rank*n/np) * h;
 ```
 
-##### 3. Każdy proces dla `i = { rank*n/np..(rank+1)*n/np - 1 }` wylicza swoją część
-oszacowania całki:
+##### 3. Każdy proces dla `i = { rank*n/np..(rank+1)*n/np - 1 }` wylicza swoją częśćoszacowania całki:
 
 ```
 integral += [ f(x) + f(x+h) ] / 2 * h;
