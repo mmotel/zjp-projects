@@ -3,7 +3,9 @@
 ## Problem
 Przybliżanie wartości całki metogą trapezów.
 
-![integral-method](../images/integral-method.png)
+![integral-method](http://upload.wikimedia.org/wikipedia/commons/a/a8/Calkowanie_numeryczne-metoda_trapezow.png)
+
+[Pełny opis via Wikipedia](http://upload.wikimedia.org/wikipedia/commons/a/a8/Calkowanie_numeryczne-metoda_trapezow.png)
 
 ## Rozwiązanie
 
