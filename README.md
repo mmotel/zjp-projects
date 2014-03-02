@@ -1,8 +1,8 @@
 #zjp-projects
 Zaawansowane języki programowania - projekty.
 
-###Projekty
+###Projekty:
 
-* Całka (integral)
-* Iloczyn macierzy i wektora (matrix-vector)
-* Monte-Carlo
+* [Całka (integral)](./integral)
+* [Iloczyn macierzy i wektora (matrix-vector)](./matrix-vector)
+* [Monte-Carlo](./monte-carlo)
