@@ -3,7 +3,7 @@
 ## Problem
 Przybliżanie wartości całki metogą trapezów.
 
-![integral-method](http://upload.wikimedia.org/wikipedia/commons/a/a8/Calkowanie_numeryczne-metoda_trapezow.png)
+![integral-method](http://upload.wikimedia.org/wikipedia/commons/e/ea/Integration_rectangle.png)
 
 [Pełny opis via Wikipedia](http://upload.wikimedia.org/wikipedia/commons/a/a8/Calkowanie_numeryczne-metoda_trapezow.png)
 
